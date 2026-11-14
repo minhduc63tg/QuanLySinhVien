@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+           fx:controller="com.sms.client.controller.LoginController">
+    <VBox styleClass="login-card" alignment="CENTER_LEFT">
+        <Label styleClass="login-title" text="Quản lý sinh viên"/>
+        <Label text="Đăng nhập để tiếp tục"/>
+        <TextField fx:id="tenDangNhapField" promptText="Tên đăng nhập"/>
+        <PasswordField fx:id="matKhauField" promptText="Mật khẩu"/>
+        <Label fx:id="thongBaoLabel" styleClass="error-label" visible="false"/>
+        <HBox spacing="10" alignment="CENTER_LEFT">
+            <Button fx:id="dangNhapButton" text="Đăng nhập" defaultButton="true" onAction="#onDangNhap"/>
+            <ProgressIndicator fx:id="tienTrinh" visible="false" prefWidth="22" prefHeight="22"/>
+        </HBox>
+    </VBox>
+</StackPane>

@@ -1,0 +1,48 @@
+.login-card { -fx-background-color: -color-bg-default; -fx-padding: 32; -fx-spacing: 14; -fx-max-width: 360; }
+.login-title { -fx-font-size: 22px; -fx-font-weight: bold; }
+.error-label { -fx-text-fill: -color-danger-fg; -fx-wrap-text: true; }
+.sidebar { -fx-background-color: -color-bg-subtle; -fx-padding: 12; -fx-spacing: 6; -fx-min-width: 220; -fx-pref-width: 220; }
+.sidebar .button { -fx-max-width: infinity; -fx-alignment: center-left; }
+.menu-active { -fx-background-color: -color-accent-subtle; -fx-font-weight: bold; }
+.page-title { -fx-font-size: 20px; -fx-font-weight: bold; }
+.user-name { -fx-font-weight: bold; }
+
+/* Biểu đồ vòng tiến độ học tập */
+.donut-track { -fx-fill: transparent; -fx-stroke: -color-border-muted; }
+.donut-outer { -fx-fill: transparent; -fx-stroke: -color-accent-emphasis; }
+.donut-pending { -fx-fill: transparent; -fx-stroke: -color-warning-emphasis; }
+.donut-inner { -fx-fill: transparent; -fx-stroke: -color-success-emphasis; }
+.donut-main { -fx-font-size: 28px; -fx-font-weight: bold; }
+.donut-sub { -fx-text-fill: -color-fg-muted; }
+.donut-dot-outer { -fx-fill: -color-accent-emphasis; }
+.donut-dot-pending { -fx-fill: -color-warning-emphasis; }
+.donut-dot-inner { -fx-fill: -color-success-emphasis; }
+.donut-dot-track { -fx-fill: -color-border-default; }
+
+/* Trạng thái môn trong chương trình khung */
+.status-done { -fx-text-fill: -color-success-fg; -fx-font-weight: bold; }
+.status-doing { -fx-text-fill: -color-accent-fg; }
+.status-failed { -fx-text-fill: -color-danger-fg; }
+.status-todo { -fx-text-fill: -color-fg-muted; }
+
+/* Lịch: màu theo buổi học và lịch thi */
+.cal-sang { -fx-background-color: -color-warning-subtle; -fx-border-color: -color-warning-emphasis; -fx-border-width: 0 0 0 4; }
+.cal-chieu { -fx-background-color: -color-accent-subtle; -fx-border-color: -color-accent-emphasis; -fx-border-width: 0 0 0 4; }
+.cal-toi { -fx-background-color: -color-chart-6-alpha20; -fx-border-color: -color-chart-6; -fx-border-width: 0 0 0 4; }
+.cal-thi { -fx-background-color: -color-danger-subtle; -fx-border-color: -color-danger-emphasis; -fx-border-width: 0 0 0 4; }
+.cal-cell { -fx-padding: 4 6 4 6; }
+.cal-cell .label { -fx-font-size: 11px; }
+.cal-cell-title { -fx-font-weight: bold; }
+.cal-thi .cal-cell-title { -fx-text-fill: -color-danger-fg; }
+.cal-grid-line { -fx-border-color: -color-border-muted; -fx-border-width: 0 1 1 0; }
+.cal-today { -fx-background-color: -color-accent-subtle; }
+.cal-swatch { -fx-min-width: 16; -fx-min-height: 16; -fx-pref-width: 16; -fx-pref-height: 16; -fx-background-radius: 3; }
+.cal-legend-sang { -fx-background-color: -color-warning-emphasis; }
+.cal-legend-chieu { -fx-background-color: -color-accent-emphasis; }
+.cal-legend-toi { -fx-background-color: -color-chart-6; }
+.cal-legend-thi { -fx-background-color: -color-danger-emphasis; }
+.buoi-chip { -fx-border-width: 0; -fx-padding: 1 8 1 8; -fx-background-radius: 8; -fx-font-weight: bold; }
+
+/* Ảnh hồ sơ */
+.avatar-placeholder { -fx-background-color: -color-neutral-muted; -fx-background-radius: 8; }
+.avatar-initials { -fx-font-weight: bold; -fx-text-fill: -color-fg-muted; }

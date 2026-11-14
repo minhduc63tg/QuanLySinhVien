@@ -1,0 +1,16 @@
+db.url=jdbc:mariadb://localhost:3306/student_mgmt?useUnicode=true&characterEncoding=utf8
+db.user=CHANGE_ME
+db.password=CHANGE_ME
+rmi.registry.port=1099
+rmi.export.port=1100
+rmi.hostname=localhost
+dangky.hocky=HK1-2026-2027
+dangky.tinchi.toida=24
+diem.qua=4.0
+canhbao.gpa=2.0
+dangky.retry=3
+
+
+# Thu muc luu tep anh ho so (MariaDB chi luu duong dan tuyet doi). De trong thi dung thu muc anh-ho-so canh file nay.
+# Viet dau gach cheo xuoi: D:/anh-ho-so hoac thu muc chia se mang //MAYCHU/anh
+#anh.thumuc=D:/anh-ho-so

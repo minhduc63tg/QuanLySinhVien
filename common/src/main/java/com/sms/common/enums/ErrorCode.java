@@ -1,0 +1,21 @@
+package com.sms.common.enums;
+
+public enum ErrorCode {
+    SAI_THONG_TIN_DANG_NHAP,
+    CHUA_DANG_NHAP,
+    KHONG_CO_QUYEN,
+    KHONG_TIM_THAY,
+    DA_TON_TAI,
+    DU_LIEU_KHONG_HOP_LE,
+    RANG_BUOC,
+    DA_DANG_KY,
+    LOP_DAY,
+    THIEU_MON_TIEN_QUYET,
+    TRUNG_LICH,
+    VUOT_TIN_CHI,
+    NGOAI_HOC_KY_DANG_KY,
+    SINH_VIEN_TOT_NGHIEP,
+    XUNG_DOT_DU_LIEU,
+    LOI_HE_THONG
+}
+
